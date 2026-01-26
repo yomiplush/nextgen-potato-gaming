@@ -13,8 +13,12 @@ By rendering natively at 540p and upscaling to 1080p via FSR, we achieve a level
 ---
 
 ## Proof of Concept
-* **Clips:** [60s Gameplay Collection (5 Titles)](https://www.dailymotion.com/...)
-* **Handheld:** [Off-screen Footage (Direct Capture)](https://www.dailymotion.com/...) 
+* **Clips:** [60s Gameplay Collection (5 Titles)](https://www.dailymotion.com/video/x9yiu50)
+* * **Clips:** [60s Gameplay Collection (5 Titles)](https://www.dailymotion.com/video/x9yiu9y)
+  * * **Clips:** [60s Gameplay Collection (5 Titles)](https://www.dailymotion.com/video/x9yiumi)
+    * * **Clips:** [60s Gameplay Collection (5 Titles)](https://www.dailymotion.com/video/x9yiwwa)
+      * * **Clips:** [60s Gameplay Collection (5 Titles)](https://www.dailymotion.com/video/x9yix0q)
+* **Handheld:** [Off-screen Footage (Direct Capture)](https://www.dailymotion.com/video/x9yisbs) 
   * *Filmed on a smartphone to prove no external GPUs or tricks were used.*
 
 ## Hardware Spec (The Potato)
