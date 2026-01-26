@@ -35,7 +35,7 @@ By rendering natively at 540p and upscaling to 1080p via FSR, we achieve a level
 ## Installation & Setup
 
 ### 1. Environment
-**Forget Windows.** You need a Linux environment that natively supports `gamescope` and `gamemode`. 
+**Forget Windows.** You need a Linux environment that natively supports `gamescope` and `gamemode`. <br>
 Arch-based distributions are the most straightforward for this setup.
 
 ### 2. Install Required Modules
