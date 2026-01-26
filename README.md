@@ -4,7 +4,7 @@ A technical guide to making "unplayable" hardware playable.
 This project leverages `gamescope` and `gamemode` to push low-end refurbished laptops to their absolute limits.
 
 ## Overview
-This setup is optimized for sub-$200 (approx. 30,000 JPY) refurbished office laptops—specifically those powered by Ryzen CPUs with integrated APUs. 
+This setup is optimized for sub-$200 refurbished office laptops—specifically those powered by Ryzen CPUs with integrated APUs. 
 
 ### The Core Logic
 We offload the upscaling process from the game engine to the Linux compositor level using **Gamescope**. 
