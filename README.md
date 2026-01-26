@@ -28,6 +28,9 @@ By rendering natively at 540p and upscaling to 1080p via FSR, we achieve a level
 * **Storage:** Upgraded to 1TB (Recommended for AAA libraries)
 * **OS:** Linux (**CachyOS** highly recommended for performance)
 
+![neofetch](画像のURL)
+![laptop photo](画像のURL)
+<img src="https://for-github-resource.pages.dev/laptop.webp" width="300" alt="laptop">
 ---
 
 ## Installation & Setup
