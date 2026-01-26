@@ -1,4 +1,4 @@
-# [Potato Gaming] AAA Titles on a under $200 Office Laptop
+<img width="1432" height="777" alt="image" src="https://github.com/user-attachments/assets/b3b7a9b3-28be-4057-a55e-01759647611e" /># [Potato Gaming] AAA Titles on a under $200 Office Laptop
 <img src="https://for-github-resource.pages.dev/header.webp" width="800" alt="header"><br>
 
 A technical guide to making "unplayable" hardware playable.<br>
@@ -78,3 +78,6 @@ MIT LICENSE / © YomiPlush<br>
 # Happy gaming on your potato!<br>
 <br>
 <img src="https://for-github-resource.pages.dev/d4.gif" width="500" alt="Diablo IV memes"><br>
+
+if you want more "trackpad stuff"...this is the way, check this my odysee account.
+[Trackpad Purgatory](https://odysee.com/@TrackpadPurgatory)
