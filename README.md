@@ -1,4 +1,5 @@
 # [Potato Gaming] AAA Titles on a under $200 Office Laptop
+<img src="https://for-github-resource.pages.dev/header.webp" width="500" alt="header"><br>
 
 A technical guide to making "unplayable" hardware playable.<br>
 This project leverages `gamescope` and `gamemode` to push low-end refurbished laptops to their absolute limits.<br>
