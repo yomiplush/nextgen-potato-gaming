@@ -43,7 +43,7 @@ Arch-based distributions are the most straightforward for this setup.
 ```bash
 # Gamescope (Required for Flatpak Steam)
 flatpak install flathub org.freedesktop.Platform.VulkanLayer.gamescope
-# Gamemode (System-wide optimization)
+# if you use arch based system
 yay -S gamemode
 ```
 
