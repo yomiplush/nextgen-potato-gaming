@@ -52,12 +52,14 @@ remove gamemoderun from the string or the game will fail to launch.
 Technical Deep Dive: The Commands
 
 Parameter,Function
-dxgi.maxDeviceMemory=4096,"""Lies"" to the game, capping VRAM at 4GB. 
-This forces engines to be smarter with texture streaming, preventing crashes on shared-memory APUs."
+dxgi.maxDeviceMemory=4096,"Lies" to the game, capping VRAM at 4GB. 
+This forces engines to be smarter with texture streaming, 
+preventing crashes on shared-memory APUs."
 gamemoderun,Requests the OS to prioritize CPU/GPU resources for the game process.
 -h 540 -H 1080,Sets the internal render resolution to 540p and the output window to 1080p.
 -F fsr,Enables AMD FidelityFX Super Resolution for high-quality upscaling.
---force-grab-cursor,"Critical. Ensures mouse input maps correctly to the upscaled resolution (prevents ""invisible wall"" cursor issues)."
+--force-grab-cursor,"Critical. Ensures mouse input maps correctly to the upscaled resolution 
+(prevents "invisible wall" cursor issues)."
 
 License & Disclaimer
 No claims, No returns
