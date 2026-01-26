@@ -41,6 +41,8 @@ Arch-based distributions are the most straightforward for this setup.
 
 ### 2. Install Required Modules
 ```bash
+# install flatpak version of steam
+flatpak install flathub com.valvesoftware.Steam
 # Gamescope (Required for Flatpak Steam)
 flatpak install flathub org.freedesktop.Platform.VulkanLayer.gamescope
 ```
