@@ -66,7 +66,8 @@ sudo dnf install gamemode
 ```
 
 ### 3. Install GE-Proton via Proton-qt
-this method needed for steam launch option, because FSR function include GE-Proton for that.
+this method needed for steam launch option,<br>
+because FSR function include GE-Proton for that.<br>
 ```bash
 https://flathub.org/en/apps/net.davidotek.pupgui2
 ```
