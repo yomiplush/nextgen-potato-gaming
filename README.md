@@ -50,6 +50,7 @@ then,
 ```bash
 # if you use arch based system
 yay -S gamemode
+yay -S gamescope
 ```
 or
 ```bash
