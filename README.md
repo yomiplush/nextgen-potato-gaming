@@ -45,6 +45,8 @@ Arch-based distributions are the most straightforward for this setup.
 flatpak install flathub com.valvesoftware.Steam
 # Gamescope (Required for Flatpak Steam)
 flatpak install flathub org.freedesktop.Platform.VulkanLayer.gamescope
+# Gamescope (Required for Flatpak Steam)
+flatpak install flathub org.freedesktop.Platform.VulkanLayer.gamescope com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 ```
 then,
 ```bash
@@ -63,9 +65,14 @@ or
 sudo dnf install gamemode
 ```
 
+### 3. Install GE-Proton via Proton-qt
+this method needed for steam launch option, because FSR function include GE-Proton for that.
+```bash
+https://flathub.org/en/apps/net.davidotek.pupgui2
+```
+
 ### 3. Steam Launch Options
 Copy and paste the following into your game's Launch Options:
-
 ```Steam Launch Options
 DXVK_CONFIG="dxgi.maxDeviceMemory=4096" gamemoderun gamescope -h 540 -H 1080 -r 60 -F fsr -f --force-grab-cursor -- %command%
 ```
