@@ -71,11 +71,14 @@ this method needed for steam launch option, because FSR function include GE-Prot
 https://flathub.org/en/apps/net.davidotek.pupgui2
 ```
 
-### 3. Steam Launch Options
+### 4. Steam Launch Options
 Copy and paste the following into your game's Launch Options:
 ```Steam Launch Options
 DXVK_CONFIG="dxgi.maxDeviceMemory=4096" gamemoderun gamescope -h 540 -H 1080 -r 60 -F fsr -f --force-grab-cursor -- %command%
 ```
+
+### 5. Enjoy your Potatto
+love your potato pc stuff
 
 Note: If you cannot (or do not want to) install gamemode, 
 remove gamemoderun from the string or the game will fail to launch.
