@@ -66,7 +66,7 @@ sudo dnf install gamemode
 Copy and paste the following into your game's Launch Options:
 
 ```Steam Launch Options
-DXVK_CONFIG="dxgi.maxDeviceMemory=4096" gamemoderun game-performance gamescope -h 540 -H 1080 -r 60 -F fsr -f --force-grab-cursor -- %command%
+DXVK_CONFIG="dxgi.maxDeviceMemory=4096" gamemoderun gamescope -h 540 -H 1080 -r 60 -F fsr -f --force-grab-cursor -- %command%
 ```
 
 Note: If you cannot (or do not want to) install gamemode, 
