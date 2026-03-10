@@ -40,7 +40,8 @@ By rendering natively at 540p and upscaling to 1080p via FSR, we achieve a level
 Arch-based distributions are the most straightforward for this setup.
 
 ### 2. Install Required Modules and Depency
-Module
+
+base Module
 ```bash
 # install flatpak version of steam
 flatpak install flathub com.valvesoftware.Steam
@@ -49,21 +50,12 @@ flatpak install flathub org.freedesktop.Platform.VulkanLayer.gamescope
 # Gamescope (Required for Flatpak Steam)
 flatpak install flathub org.freedesktop.Platform.VulkanLayer.gamescope com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 ```
-then, if you use Arch-based Linux
+
+# if you use Arch-based Linux
 ```bash
 # if you use arch based system
 yay -S gamemode
 yay -S gamescope
-```
-or if you use Ubuntu/Debian Linux
-```bash
-# if you use ubuntu/debian based system
-sudo apt install gamemode
-```
-or or if you use Fedora-based Linux
-```bash
-# if you use fedora based system
-sudo dnf install gamemode
 ```
 
 Depency (if you use Arch-based)
