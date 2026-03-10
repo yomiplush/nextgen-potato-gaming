@@ -65,11 +65,17 @@ or
 sudo dnf install gamemode
 ```
 
-### 3. Install GE-Proton via Proton-qt
+### 3. Install GE-Proton via Proton-qt, then set GE-Proton for Steam Games Compatibility
 this method needed for steam launch option,<br>
 because FSR function include GE-Proton for that.<br>
 ```bash
 https://flathub.org/en/apps/net.davidotek.pupgui2
+```
+
+then
+
+``` Steam Compatibility
+Set "GE-Proton"
 ```
 
 ### 4. Steam Launch Options
