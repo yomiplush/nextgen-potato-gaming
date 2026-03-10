@@ -49,29 +49,28 @@ flatpak install flathub org.freedesktop.Platform.VulkanLayer.gamescope
 # Gamescope (Required for Flatpak Steam)
 flatpak install flathub org.freedesktop.Platform.VulkanLayer.gamescope com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 ```
-then,
+then, if you use Arch-based Linux
 ```bash
 # if you use arch based system
 yay -S gamemode
 yay -S gamescope
 ```
-or
+or if you use Ubuntu/Debian Linux
 ```bash
 # if you use ubuntu/debian based system
 sudo apt install gamemode
 ```
-or
+or or if you use Fedora-based Linux
 ```bash
 # if you use fedora based system
 sudo dnf install gamemode
 ```
 
-Depency
+Depency (if you use Arch-based)
 if AMD
 ```bash
 sudo pacman -S mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon
 ```
-
 if Nvidia
 ```bash
 sudo pacman -S nvidia nvidia-utils lib32-nvidia-utils
@@ -85,9 +84,27 @@ if Intel
 sudo pacman -S mesa lib32-mesa vulkan-intel lib32-vulkan-intel
 ```
 
+# if you use Ubuntu/Debian Linux
+```
+sudo ubuntu-drivers autoinstall
+```
+if AMD/Intel
+```
+sudo apt update
+sudo add-apt-repository ppa:kisak/kisak-mesa
+sudo apt install mesa-vulkan-drivers mesa-vulkan-drivers:i386
+```
+if Nvidia (grub setting required)
+```
+sudo apt install nvidia-driver-550 libnvidia-gl-550:i386
+```
+
+sudo dnf install mesa-va-drivers-freeworld mesa-vulkan-drivers mesa-vulkan-drivers.i686
+
 ### 3. Install GE-Proton via Proton-qt, then set GE-Proton for Steam Games Compatibility
 this method needed for steam launch option,<br>
 because FSR function include GE-Proton for that.<br>
+
 ```bash
 https://flathub.org/en/apps/net.davidotek.pupgui2
 ```
