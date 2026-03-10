@@ -39,7 +39,8 @@ By rendering natively at 540p and upscaling to 1080p via FSR, we achieve a level
 **Forget Windows.** You need a Linux environment that natively supports `gamescope` and `gamemode`. <br>
 Arch-based distributions are the most straightforward for this setup.
 
-### 2. Install Required Modules
+### 2. Install Required Modules and Depency
+Module
 ```bash
 # install flatpak version of steam
 flatpak install flathub com.valvesoftware.Steam
@@ -48,6 +49,25 @@ flatpak install flathub org.freedesktop.Platform.VulkanLayer.gamescope
 # Gamescope (Required for Flatpak Steam)
 flatpak install flathub org.freedesktop.Platform.VulkanLayer.gamescope com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 ```
+Depency
+if AMD
+```bash
+sudo pacman -S mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon
+```
+
+if Nvidia
+```bash
+sudo pacman -S nvidia nvidia-utils lib32-nvidia-utils
+```
+if Nvidia (grub setting required)
+```bash
+GRUB_CMDLINE_LINUX_DEFAULT="... nvidia-drm.modeset=1"
+```
+if Intel
+```bash
+sudo pacman -S mesa lib32-mesa vulkan-intel lib32-vulkan-intel
+```
+
 then,
 ```bash
 # if you use arch based system
@@ -80,8 +100,15 @@ Set "GE-Proton"
 
 ### 4. Steam Launch Options
 Copy and paste the following into your game's Launch Options:
+
+if AMD stuff
 ```Steam Launch Options
 DXVK_CONFIG="dxgi.maxDeviceMemory=4096" gamemoderun gamescope -h 540 -H 1080 -r 60 -F fsr -f --force-grab-cursor -- %command%
+```
+
+if Nvidia stuff
+```Steam Launch Options
+DXVK_CONFIG="dxgi.maxDeviceMemory=4096" gamemoderun gamescope -h 540 -H 1080 -r 60 -F nis -f --force-grab-cursor -- %command%
 ```
 
 ### 5. Enjoy your Potatto
