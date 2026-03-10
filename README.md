@@ -75,11 +75,12 @@ GRUB_CMDLINE_LINUX_DEFAULT="... nvidia-drm.modeset=1"
 
 # if you use Ubuntu/Debian Linux
 ```
+sudo apt update
+sudo apt upgrade
 sudo ubuntu-drivers autoinstall
 ```
 if AMD/Intel
 ```
-sudo apt update
 sudo add-apt-repository ppa:kisak/kisak-mesa
 sudo apt install mesa-vulkan-drivers mesa-vulkan-drivers:i386
 ```
