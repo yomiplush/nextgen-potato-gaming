@@ -49,6 +49,23 @@ flatpak install flathub org.freedesktop.Platform.VulkanLayer.gamescope
 # Gamescope (Required for Flatpak Steam)
 flatpak install flathub org.freedesktop.Platform.VulkanLayer.gamescope com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 ```
+then,
+```bash
+# if you use arch based system
+yay -S gamemode
+yay -S gamescope
+```
+or
+```bash
+# if you use ubuntu/debian based system
+sudo apt install gamemode
+```
+or
+```bash
+# if you use fedora based system
+sudo dnf install gamemode
+```
+
 Depency
 if AMD
 ```bash
@@ -66,23 +83,6 @@ GRUB_CMDLINE_LINUX_DEFAULT="... nvidia-drm.modeset=1"
 if Intel
 ```bash
 sudo pacman -S mesa lib32-mesa vulkan-intel lib32-vulkan-intel
-```
-
-then,
-```bash
-# if you use arch based system
-yay -S gamemode
-yay -S gamescope
-```
-or
-```bash
-# if you use ubuntu/debian based system
-sudo apt install gamemode
-```
-or
-```bash
-# if you use fedora based system
-sudo dnf install gamemode
 ```
 
 ### 3. Install GE-Proton via Proton-qt, then set GE-Proton for Steam Games Compatibility
