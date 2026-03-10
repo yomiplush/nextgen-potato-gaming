@@ -116,6 +116,8 @@ if Intel Stuff
 DXVK_CONFIG="dxgi.maxDeviceMemory=4096" gamemoderun gamescope -h 540 -H 1080 -r 60 -S integer -f -- %command%
 ```
 
+(if something wrong for startup games, try to manual remove "gamemoderun" line. maybe work.)
+
 ### 5. Enjoy your Potatto
 love your potato pc stuff
 
