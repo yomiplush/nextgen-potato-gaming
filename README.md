@@ -111,6 +111,11 @@ if Nvidia stuff
 DXVK_CONFIG="dxgi.maxDeviceMemory=4096" gamemoderun gamescope -h 540 -H 1080 -r 60 -F nis -f --force-grab-cursor -- %command%
 ```
 
+if Intel Stuff
+```Steam Launch Options
+DXVK_CONFIG="dxgi.maxDeviceMemory=4096" gamemoderun gamescope -h 540 -H 1080 -r 60 -S integer -f -- %command%
+```
+
 ### 5. Enjoy your Potatto
 love your potato pc stuff
 
