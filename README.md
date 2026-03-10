@@ -67,21 +67,18 @@ sudo dnf install gamemode
 ```
 
 Depency (if you use Arch-based)
-if AMD
+if AMD/Intel
 ```bash
 sudo pacman -S mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon
+sudo pacman -S mesa lib32-mesa vulkan-intel lib32-vulkan-intel
 ```
 if Nvidia
 ```bash
 sudo pacman -S nvidia nvidia-utils lib32-nvidia-utils
 ```
-if Nvidia (grub setting required)
+if Nvidia (grub setting if required)
 ```bash
 GRUB_CMDLINE_LINUX_DEFAULT="... nvidia-drm.modeset=1"
-```
-if Intel
-```bash
-sudo pacman -S mesa lib32-mesa vulkan-intel lib32-vulkan-intel
 ```
 
 # if you use Ubuntu/Debian Linux
@@ -97,6 +94,19 @@ sudo apt install mesa-vulkan-drivers mesa-vulkan-drivers:i386
 if Nvidia (grub setting required)
 ```
 sudo apt install nvidia-driver-550 libnvidia-gl-550:i386
+```
+# if you use Fedora-based Linux
+if AMD/Intel
+```
+sudo dnf install mesa-va-drivers-freeworld mesa-vulkan-drivers mesa-vulkan-drivers.i686
+```
+if Nvidia
+```
+sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-libs.i686
+```
+Core module
+```
+sudo dnf install gamemode gamescope
 ```
 
 sudo dnf install mesa-va-drivers-freeworld mesa-vulkan-drivers mesa-vulkan-drivers.i686
