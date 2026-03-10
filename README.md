@@ -75,9 +75,12 @@ GRUB_CMDLINE_LINUX_DEFAULT="... nvidia-drm.modeset=1"
 
 # if you use Ubuntu/Debian Linux
 ```
+sudo add-apt-repository ppa:arcustoms/gamescope
 sudo apt update
 sudo apt upgrade
 sudo ubuntu-drivers autoinstall
+sudo apt install gamemode
+sudo apt install gamescope
 ```
 if AMD/Intel
 ```
@@ -100,6 +103,7 @@ sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-libs.
 Core module
 ```
 sudo dnf install gamemode gamescope
+sudo dnf install gamemode.i686
 ```
 
 sudo dnf install mesa-va-drivers-freeworld mesa-vulkan-drivers mesa-vulkan-drivers.i686
