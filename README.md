@@ -23,7 +23,7 @@ By rendering natively at 540p and upscaling to 1080p via FSR, we achieve a level
 * **12 mini Video:** [Off-screen Footage (Direct Capture)](https://www.dailymotion.com/video/x9yisbs) 
   * *Filmed on a smartphone to prove no external GPUs or tricks were used.*
 
-## Hardware Spec (The Potato)
+## Hardware test enviorment (The Potato)
 * **Device:** Generic Amazon Refurbished Office Laptop (under $200 )
 * **CPU/GPU:** Ryzen APU (Integrated Graphics, a.k.a no gpu potato stuff.)
 * **Storage:** Upgraded to 1TB (Recommended for AAA libraries)
